@@ -1,0 +1,9 @@
+AutoUpdater 6.0 PUBLIC BETA Release Notes
+
+1. Logs now give more details. A new file will be created for each update. This log file explains about the recent update more clearly with the status of each process. 
+2. Updated the README file. 
+3. update.sh script used for updating AutoUpdater has been removed and will later be introduced after designing a new one. 
+4. For installing AutoUpdater in Raspberry Pi you no longer have to give entry. This means that the installer for RPi and others are same. 
+5. Seperate installer has been created for older versions of Ubuntu. This also means seperate code for older versions. But as of now, there are no notable GUI changes.  
+6. Updated the installer. 
+7. Git repository for AutoUpdater has been started.  
