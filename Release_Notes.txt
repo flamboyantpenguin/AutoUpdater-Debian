@@ -1,0 +1,11 @@
+AutoUpdater 6.0 PUBLIC BETA Release Notes
+
+1. Logs now give more details. A new file will be created for each update. This log file explains about the recent update more clearly with the status of each process. 
+2. Updated the README file. 
+3. Started development for update.sh file. 
+4. For installing AutoUpdater in Raspberry Pi you no longer have to give entry. This means that the installer for RPi and others are same. 
+5. Seperate installer has been created for older versions of Ubuntu. This also means seperate code for older versions. But as of now, there are no notable GUI changes.  
+6. Updated the installer. 
+7. Git repository for AutoUpdater has been started. 
+8. BETA versions are now available only in GitHub (ShapedAna/AutoUpdater6.0). Link for the repositories will be given in the website. 
+9. Added logfetcher.sh script to fetch logs from /etc/AutoUpdater/logs directory and place them in the $HOME/AutoUpdater direcory in a tar file. 
