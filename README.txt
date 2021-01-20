@@ -1,4 +1,4 @@
-Welcome to AutoUpdater6.0 
+Welcome to AutoUpdater6.8 BETA (Pre-Release 2)
 
 AutoUpdater is an application designed to make updating applications an easy task. AutoUpdater is also designed for users to 
 understand the way in which it work and use to design more better applications or adapt AutoUpdater itslef to your needs. So, AutoUpdater 
@@ -32,8 +32,11 @@ To uninstall, run the uninstall.sh script found in the AutoUpdater directory in 
 by double clicking or by running ./uninstall.sh. Remember, once uninstalled nothing would be left except logs which would be stored in 
 your home directory. The logs will be stored in the AutoUpdater directory after successfull uninstall.  
 
---Log Fetcher Instructions--
-To fetch the logs and place them into the AutoUpdater directory in your home, run the logfetch.sh file. 
+--How to use Update logs--
+Status of update and updated packages will be logged with time stamp in the /etc/AutoUpdater/logs directory. To fetch these logs to 
+your AutoUpdater directory, use the fetchlog.sh script. 
 
 
 To learn more visit : https://sites.google.com/view/linux-autoupdater/
+
+Made by the Linux Penguin (shapedana@gmail.com)
