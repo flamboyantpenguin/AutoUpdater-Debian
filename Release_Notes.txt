@@ -6,7 +6,7 @@ AutoUpdater 6.8 PUBLIC BETA (Pre-Release 2) Release Notes
 4. For installing AutoUpdater in Raspberry Pi you no longer have to give entry. This means that the installer for RPi and others are same. 
 5. Seperate installer has been created for older versions of Ubuntu. This also means seperate code for older versions. But as of now, there are no notable GUI changes.  
 6. Updated the installer. 
-7. Git repository for AutoUpdater has been started. 
+7. AutoUpdater is now available on GitHub. To learn more visit https://sites.google.com/view/linux-autoupdater/announcements
 8. BETA versions are now available only in GitHub (ShapedAna/AutoUpdater-Debian). Link for the repositories will be given in the website. 
 9. Added logfetcher.sh script to fetch logs from /etc/AutoUpdater/logs directory and place them in the $HOME/AutoUpdater direcory in a tar file. 
 10. Bugs found in install.sh script has been fixed
