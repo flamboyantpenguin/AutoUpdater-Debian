@@ -23,6 +23,7 @@ if [ $? = 1 ]; then
     echo "Exiting installer"
     exit 1
   fi
+fi
 zenity --info --text="Welcome to AutoUpdater6.8 PUBLIC BETA Installer"
 opt=$(zenity --entry --text "Enter old for older versions of Ubuntu and other for others" --title="AutoUpdater6.8 BETA Installer")
 if [ $opt = "old" ]; then
@@ -35,4 +36,5 @@ else
   echo -n $password | sudo -S tar -xvf files.tar
   sudo sh ./installer
   zenity --info --text="Installation Completed Successfully"
+  exit 0
 fi
