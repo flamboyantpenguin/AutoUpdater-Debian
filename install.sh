@@ -8,7 +8,7 @@ command -v zenity
 if [ $? = 1 ]; then
   echo "zenity is not installed. Do you want to install zenity? (Y/N) "
   read opt
-  if [ $opt = "Y"]; then
+  if [ $opt = "Y" ]; then
     echo "Installing zenity using apt"
     sudo apt install zenity -y 
     if [ $? = 1 ]; then
