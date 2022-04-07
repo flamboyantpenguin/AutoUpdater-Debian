@@ -35,5 +35,4 @@ else
   echo -n $password | sudo -S tar -xvf files.tar
   sudo sh ./installer
   zenity --info --text="Installation Completed Successfully"
-  exit 0
 fi
